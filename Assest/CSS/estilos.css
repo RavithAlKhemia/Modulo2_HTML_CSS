@@ -1,0 +1,23 @@
+header {
+    text-align:center;
+}
+
+nav {
+    color: blue;
+}
+
+.titulo_seccion {
+    background-color: black; 
+    color: antiquewhite;
+}
+
+.titulo_punto {
+    font-style: italic; 
+    font-size:large;
+}
+
+.puntos {
+    text-align: justify; 
+    width: 50vw;
+}
+
