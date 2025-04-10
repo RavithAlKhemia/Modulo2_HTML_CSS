@@ -1,9 +1,11 @@
 header {
     text-align:center;
+    background-color: green;
 }
 
 nav {
     color: blue;
+
 }
 
 .titulo_seccion {
@@ -45,4 +47,16 @@ body {
 #return {
     text-align: right;
 
+}
+
+#derechos {
+    text-align: center;
+}
+
+#contacto {
+    text-align: center;
+}
+
+#foot {
+    background-color: yellowgreen;
 }
