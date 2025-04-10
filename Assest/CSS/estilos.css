@@ -16,8 +16,33 @@ nav {
     font-size:large;
 }
 
-.puntos {
-    text-align: justify; 
-    width: 50vw;
+
+body {
+    width: 80vw; 
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
+.puntos {
+    text-align: justify; 
+}
+
+#foto_perfil {
+    width: 300px;
+}
+
+.parr_exp {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1px;
+}
+
+.fecha_exp  {
+    text-align: right;
+
+}
+
+#return {
+    text-align: right;
+
+}

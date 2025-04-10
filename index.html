@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="Assest/CSS/estilos.css">
+    <link rel="shortcut icon" href="Assest/img/CV_icon.jpg" type="image/x-icon">
 </head>
 
 <body>
@@ -12,13 +13,14 @@
     <header>
          <!--titulo importante-->
         <h1 id="inicio">CURRICULUM VITAE</h1>
-        <h3>Ingeniero de Ejecución en Metalurgia</h3>
+        <h2>Ingeniero de Ejecución en Metalurgia</h2>
     </header>
     
     <!--Navigation para saltar a secciones de la pagina-->
     <nav>
         <ul>
             <li><a href="#perfil">Perfil</a></li>
+            <li><a href="#resumen">Resumen</a></li>
             <li><a href="#experiencia">Experiencia Laboral</a></li>
             <li><a href="#estudios">Formación académica</a></li>
             <li><a href="#habilidades">Competencias y Habilidades</a></li>
@@ -26,24 +28,39 @@
         </ul>
     </nav>
 
+  
     <!--Sección datos personales-->
     <section id="perfil">
         <h2 class="titulo_seccion">PERFIL</h2>
+        <img src="Assest/img/foto_perfil.jpg" id="foto_perfil">
         <p><strong>DAVID MEDINA JOFRÉ</strong></p>
         <p><strong>RUT</strong>: 17.389.651-4</p>
         <p><strong>Domicilio</strong>: Trehuaco #320, Hualpén</p>
         <p><strong>Teléfono</strong>: +569 54374202</p>
         <p><strong>Correo</strong>: davidchristia.m@gmail.com</p>
         <p><strong>Edad</strong>: 35 años</p>
+
+    </section>
+
+    <!--Resumen-->
+    <section id="resumen">
+        <h2 class="titulo_seccion">RESUMEN</h2>
+        <p>
+            Profesional con sólida experiencia en liderazgo y mejora continua en procesos industriales, especializado en acería y
+            fundición. Destaca en la optimización de procesos, capacitación de personal y generación de reportes de producción.
+            Habilidad para gestionar equipos y coordinar actividades operativas, garantizando la calidad y eficiencia productiva en
+            diversas empresas del rubro. Su enfoque sistemático en la mejora y análisis de datos contribuye al aumento de la
+            productividad operativa.
+        </p>
     </section>
 
      <!--Sección de Experiencia laboral-->
      <section id="experiencia">
         <h2 class="titulo_seccion">EXPERIENCIA LABORAL</h2>
-            <p>
+            <p class="parr_exp">
                 <strong class="titulo_punto">Siderúrgica Huachipato</strong> - Jefe General de Turno
-                <br>
-                Febrero 2024 – Septiembre 2024
+                <br> 
+                <div class="fecha_exp">Febrero 2024 – Septiembre 2024</div>
             </p>
         <div class="puntos">
             <li>Lidera la planificación y dirección de actividades en la unidad de Acería y Colada Continua, asegurando la correcta
@@ -54,10 +71,10 @@
         </div>
         <br>
     
-            <p>
+            <p class="parr_exp">
                 <strong class="titulo_punto">Chilexpress S.A.</strong> - Ingeniero de Mejora Continua
                 <br>
-                Abril 2023 – Diciembre 2023
+                <div class="fecha_exp">Abril 2023 – Diciembre 2023</div>
             </p>
         <div class="puntos">    
             <li>Gestiona la migración de procesos logísticos, logrando la optimización de actividades y estandarización de
@@ -68,10 +85,10 @@
             <br>
         </div>
     
-            <p>
+            <p class="parr_exp">
                 <strong class="titulo_punto">Esco Elecmetal Fundición Ltda.</strong> - Ingeniero de Procesos
                 <br>
-                Octubre 2019 – Noviembre 2022
+                <div class="fecha_exp">Octubre 2019 – Noviembre 2022</div>
             </p>
         <div class="puntos">
             <li>Ejecuta metodología PVR de reducción de variabilidad de procesos, mejorando el análisis y desarrollo de mejoras.</li>
@@ -82,10 +99,10 @@
             <br>
         </div>
     
-            <p>
+            <p class="parr_exp">
                 <strong class="titulo_punto">Esco Elecmetal Fundición Ltda.</strong> - Supervisor de Fusión
                 <br>
-                Julio 2017 – Octubre 2019
+                <div class="fecha_exp">Julio 2017 – Octubre 2019</div>
             </p>
         <div class="puntos">    
             <li>Dirige equipos de trabajo de hasta 15 personas, gestionando la planificación de actividades operativas.</li>
@@ -95,10 +112,10 @@
             <br>
         </div>
     
-            <p>
+            <p class="parr_exp">
                 <strong class="titulo_punto">Framy Innovation & Technology Co.</strong> - Despachador remoto
                 <br>
-                Junio 2015 – Septiembre 2016
+                <div class="fecha_exp">Junio 2015 – Septiembre 2016</div>
             </p>
         <div class="puntos">
             <li>Coordina eficazmente el tráfico de vehículos de carga para garantizar la seguridad operativa en la faena.</li>
@@ -107,10 +124,10 @@
             <br>
         </div>
     
-            <p>
+            <p class="parr_exp">
                 <strong class="titulo_punto">Comisión Chilena de Energía Nuclear, CCHEN</strong> - Trabajo de titulación
                 <br>
-                Octubre 2013 – Noviembre 2014
+                <div class="fecha_exp">Octubre 2013 – Noviembre 2014</div>
             </p>
         <div class="puntos">
             <li>Desarrolla y ejecuta un proyecto de titulación sobre ensayos ultrasónicos, aplicando técnicas innovadoras.</li>
@@ -178,14 +195,16 @@
 <footer>
     <!--contacto en el pie de pagina-->
     <p id="contacto">
-        Correo: <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKjfscfjkFswzlBdmcvrXKmSlcVBgpmcFnKQdbPjqVwlrHKwrlrGNFBDlbNxBCWsxwHHchM">davidchristian.m@gmail.com</a> | 
-        WhatsApp: <a href="https://wa.me/+56954374202">+569 54374202</a> | 
-        LinkId: <a href="http://www.linkedin.com/in/dcmj">www.linkedin.com/in/dcmj</a>
+        Correo: <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKjfscfjkFswzlBdmcvrXKmSlcVBgpmcFnKQdbPjqVwlrHKwrlrGNFBDlbNxBCWsxwHHchM" target="_blank">davidchristian.m@gmail.com</a> | 
+        WhatsApp: <a href="https://wa.me/+56954374202" target="_blank">+569 54374202</a> | 
+        LinkId: <a href="http://www.linkedin.com/in/dcmj" target="_blank">www.linkedin.com/in/dcmj</a>
     </p>
     <p>
         Todos los derechos reservados
         <br>
-        <a href="#inicio">Volver</a>
+        <div id="return">
+            <a href="#inicio">Volver</a>
+        </div>
     </p>
 </footer>
 
